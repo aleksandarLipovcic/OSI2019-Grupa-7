@@ -41,5 +41,6 @@ private:
 	//funkcija koja se poziva da se napravi nalog i uloguje sa vec postojecim nalogom
 	void napraviNalog();
 	bool ulogujSe();
+
 };
 
