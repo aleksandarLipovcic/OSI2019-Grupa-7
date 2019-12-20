@@ -207,13 +207,6 @@ bool Nalog::checkPassword()
 		cout << "Password nije validan!\n";
 	}
 	return isValid;
-	korisnici.close();
-	if (isValid) {
-		korisnici.seekg(ios_base::end);
-		korisnici << "Password:" << this->password << "\n";
-		return true;
-	}
-	return false;
 }
 void Nalog::napraviNalog()
 {
