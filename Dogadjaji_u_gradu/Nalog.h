@@ -4,9 +4,8 @@
 #include <conio.h>
 #include <fstream>
 /*
-Verzija:1.2
+Verzija:1.3
 Autor:Marko Mihajlovic
-Nije jos tesrirano.
 */
 using namespace std;
 
@@ -41,8 +40,8 @@ namespace OSI {
 		bool checkPassword();
 	public:
 		//funkcija koja se poziva da se napravi nalog i uloguje sa vec postojecim nalogom
-		void napraviNalog();
-		bool ulogujSe();
+		void createAcc();
+		bool loging();
 
 	};
 }
