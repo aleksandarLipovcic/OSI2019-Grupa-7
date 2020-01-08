@@ -1,0 +1,31 @@
+00|Koliko Banjaluka ima stanovnika?|oko 200000|oko milijardu|oko 2000|
+01|Kako se zove episkop banjalucki?|Jefrem|Amfilohije|Grigorije|
+02|Koje godine je bio zemljotres u Banjaluci?|1969.|1992.|1945.|
+03|Koja je najstarija osnovna skola u Banjaluci?|Dositej Obradovic|Sveti Sava|Ivo Andric|
+04|Koje godine je Gari Kasparov igrao turnir u Banjaluci?|1979.|1989.|1999.|
+05|Po kome je dobio ime cuveni zbor koji se odrzava u okolini Banjaluke?|Petar Kocic|Ivo Andric|Branko Copic|
+06|Nakon koje povrede se Marijan Benes povukao iz boksa?|Nakon povrede oka|Nakon povrede kicme|Nakon potresa mozga|
+07|Koji fakultet je zavrsio trenutni gradonacelnik Banjaluke?|Elektrotehnicki fakultet|Medicinski fakultet|Pravni fakultet|
+08|Koji je zvanicni naziv Gospodske ulice u Banjoj Luci?|Ulica Veselina Maslese|Ulica Kralja Petra I Karadjordjevica|Ulica Kralja Alfonsa XIII|
+09|Koje godine je RK Borac postao prvak Evrope?|1976.|1970.|1985.|
+10|Koja od navedenih fabrika je bila u Banjoj Luci?|Cajavec|Gorenje|Koncar|
+11|Koja rijeka tece kroz Banjaluku?|Vrbas|Sava|Brbas|
+12|Kako se zove Banjalucko pivo?|Nektar|Tuborg|Jelen|
+13|Koji od navedenih pjevaca je iz Banjaluke?|Boris Rezak|Aca Lukas|Zeljko Samardzic|
+14|Na manifestaciji Ljeto na Vrbasu tradicionalno se odrzava trka:|Dajaka|Konja|Automobila|
+15|Gdje se nalazi memorijalni spomenik palim Krajisnicima?|Banj Brdo|Mrakovica|Manjaca|
+16|Kad se slavi dan grada Banjaluke?|22. april|9. januar|1. maj|
+17|Kako se zove tvrdjava u Banjaluci?|Kastel|Petrovaradinska tvrdjava|Kalemegdan|
+18|Kako se zovu navijaci Borca?|Lesinari|Golubovi|Sokolovi|
+19|Koji je postanski broj Banjaluke?|78000|68000|58000|
+20|Koji poznati pjevac izvodi pjesmu "Banjaluko i ta tvoja sela"?|Bora Drljaca|Era Ojdanic|Mitar Miric|
+21|Ko je zasluzan za otvaranje prve hidroelektrane u Banjaluci?|Trapisti|Benediktinci|Franjevci|
+22|Banja Luka je takodje i ime za koju vrstu cvijeca?|Lale|Ruze|Zumbuli|
+23|Kako se naziva glavni trg?|Trg Krajine|Trg Slobode|Trg Revolucije|
+24|Koje je zvanicno ime gradskog mosta?|Most Patre|Most Banjaluka|Most KAB-a|
+25|Koliko plocica cevapa ima u velikoj porciji?|4|5|3|
+26|Koje boje je Ukrajinska crkva u Banjaluci?|Plave|Zute|Crvene|
+27|Po kom Banjaluckom kompozitoru muzicka skola nosi ime?|Vlado Milosevic|Stevan Mokranjac|Petar Konjovic|
+28|Koje godine je obnovljena Ferhadija?|2016.|2014.|2018.|
+29|Koje su bile posljednje rijeci lijepe Safikade, banjalucke legende?|Vjerna sam mu|Volim te, tako te ludo volim|Recite mu da ga volim, samo sa njim zivot hocu|
+30|Kako se zvala najveca obozavateljka Zdravka Colica iz Banjaluke?|Majda|Safikada|Merima|
