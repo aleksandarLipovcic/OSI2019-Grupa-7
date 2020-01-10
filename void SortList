@@ -1,0 +1,70 @@
+bool ListaDogadjaja::sortirajDogadjaje(std::vector<std::string>&izdvojeniDogajaji)
+{
+	char temp[10];
+	bool krajPrograma = true, krajCiklusa = true;
+	
+	do
+	{
+		system("CLS");
+		grb();
+		header();
+		std::cout << "(Da izaberete opciju utkucajte redni broj zeljene opcije.)" << std::endl;
+		std::cout << "(Da zatvorite aplikaciju utkucajte ' kraj '.)" << std::endl;
+		std::cout << "(Povratak na prehodnu stranu ' 0 '.)" << std::endl;
+		footer();
+		header();
+		std::cout << "SORTIRANJE DOGADJAJA." << std::endl;
+		header();
+		std::cout << "| 1. Po datumu opadajuce | 2. Po datumu rastuce |" << std::endl;
+		std::cout << "| 3. Po nazivu opadajuce | 4. Po nazivu rastuce |" << std::endl;;
+		footer();
+
+		krajCiklusa = true;
+		while (krajCiklusa)
+		{
+			std::cout << "Unesite redni broj opcije iz menija:"<<std::endl;
+			std::cin >> temp;
+			getchar();
+			if (temp[0] == '0')
+			{
+				return true;
+			}
+			else if (temp[0] == 'k')
+			{
+				return false;
+			}
+			else if (1 == atoi(temp))
+			{
+				
+				krajCiklusa = false;
+				mojSort(izdvojeniDogajaji, "poDatumuOpadajuce");
+				
+			}
+			else if (2 == atoi(temp))
+			{
+
+				krajCiklusa = false;
+				mojSort(izdvojeniDogajaji, "poDatumuRastuce");
+			}
+			else if (3 == atoi(temp))
+			{
+
+				krajCiklusa = false;
+				mojSort(izdvojeniDogajaji, "poNazivuOpadajuce");
+			}
+			else if (4 == atoi(temp))
+			{
+
+				krajCiklusa = false;
+				mojSort(izdvojeniDogajaji, "poNazivuRastuce");
+			}
+			else
+			{
+					std::cout << "Ne postoji dogadjaj sa ' " << temp << " ' rednim brojem." << std::endl;
+					getchar();
+			}
+		}
+	} while (krajPrograma);
+	return false;
+
+}
