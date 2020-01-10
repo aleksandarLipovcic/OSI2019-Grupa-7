@@ -1,0 +1,66 @@
+bool ListaDogadjaja::prikaziDogadjaj(std::string nazivDogadjaja)
+{
+	char temp[10];
+	bool krajPrograma = true, krajCiklusa = true;
+	std::string naslov, kategorija, datumIVrijeme, opis, line;
+
+	std::ifstream myfile(convert(getDatum(nazivDogadjaja) + getNaziv(nazivDogadjaja) + "TekstDogadjaja.txt"));
+	if (myfile.is_open())
+	{
+		while (getline(myfile, line))
+		{
+			opis.append(line);
+		}
+		myfile.close();
+	}
+	else std::cout << "Neuspjesno otvaranje datoteke";
+
+	do
+	{
+		system("CLS");
+		grb();
+		header();
+		std::cout << "(Da izaberete opciju utkucajte redni broj zeljene opcije.)" << std::endl;
+		std::cout << "(Da zatvorite aplikaciju utkucajte ' kraj '.)" << std::endl;
+		std::cout << "(Povratak na prehodnu stranu ' 0 '.)" << std::endl;
+		footer();
+		std::cout << "PRIKAZ DOGADJAJA." << std::endl;
+		header();
+		std::cout << "| 1. Komentarisanje dogadjaja |" << std::endl;
+		footer();
+		header();
+		std::cout <<"Naslov dogadjaja:          "<< getNaziv(nazivDogadjaja) << std::endl;
+		std::cout <<"Datum i vrijeme dogadjaja: " << getDatum(nazivDogadjaja) << std::endl;
+		std::cout <<"Kategorija dogadjaja:      " << getKategorijaDogadjaja(nazivDogadjaja) << std::endl;
+		header();
+		std::cout << opis << std::endl;
+		footer();
+
+		krajCiklusa = true;
+		while (krajCiklusa)
+		{
+			std::cin >> temp;
+			getchar();
+			if (temp[0] == '0')
+			{
+				return true;
+			}
+			else if (temp[0] == 'k')
+			{
+				return false;
+			}
+			if (1 == atoi(temp))
+			{
+				krajCiklusa = false;
+				komentarisanjeDogadjaja(nazivDogadjaja);
+			}
+			else
+			{
+				std::cout << "Ne postoji dogadjaj sa ' " << temp << " ' rednim brojem." << std::endl;
+				getchar();
+			}
+		}
+
+	} while (krajPrograma);
+	return true;
+}
