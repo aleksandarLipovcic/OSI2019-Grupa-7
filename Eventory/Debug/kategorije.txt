@@ -1,0 +1,6 @@
+promocije
+koncerti
+izlozbe
+zbor
+rock_koncert
+test
